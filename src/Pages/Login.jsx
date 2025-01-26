@@ -51,6 +51,7 @@ const Login = () => {
             <div className="max-w-md w-full mx-auto mt-10 bg-white p-6 shadow-lg rounded-lg">
                 <h2 className="text-2xl font-semibold text-black text-center mb-6">Login</h2>
                 <form onSubmit={handleLogin}>
+                //admin@gmail.com //123456
                     <InputField
                         label="Email"
                         type="email"
